@@ -36,3 +36,19 @@ captures/
 
 # Firebase secrets
 google-services.json
+
+# Generated Gradle/Kotlin internal folders
+android/
+daemon/
+kotlin-profile/
+native/
+.kotlin/
+.tmp/
+
+# Logs
+*.log
+hs_err_pid*
+replay_pid*
+
+# Local machine config
+local.properties
