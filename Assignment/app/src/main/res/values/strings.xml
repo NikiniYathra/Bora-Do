@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TodoListApp</string>
+    <string name="developer_name">Nikini Yathra</string>
+    <string name="student_id">D-BCS-23-0005</string>
+
+    <!-- Formatted messages -->
+    <string name="welcome_message">Welcome to %1$s \'s TO DO List!</string>
+    <string name="developer_info">This app was developed by %1$s (%2$s).</string>
+
+    <string name="go_to_lists">Go to Lists</string>
+
+    <string name="banner_image_desc">App banner image</string>
+    <string name="add_list" />
+    <string name="add_item" />
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <!-- Home Screen -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="lk.kdu.ac.mc.todolistapp.ui.HomeFragment"
+        android:label="Home">
+        <action
+            android:id="@+id/action_home_to_lists"
+            app:destination="@id/todoListsFragment" />
+    </fragment>
+
+    <!-- Existing Lists Screen -->
+    <fragment
+        android:id="@+id/todoListsFragment"
+        android:name="lk.kdu.ac.mc.todolistapp.ui.TodoListsFragment"
+        android:label="Lists">
+        <action
+            android:id="@+id/action_lists_to_items"
+            app:destination="@id/todoItemsFragment" />
+    </fragment>
+
+    <!-- Existing Items Screen -->
+    <fragment
+        android:id="@+id/todoItemsFragment"
+        android:name="lk.kdu.ac.mc.todolistapp.ui.TodoItemsFragment"
+        android:label="Items">
+        <argument
+            android:name="listId"
+            app:argType="string" />
+    </fragment>
+</navigation>

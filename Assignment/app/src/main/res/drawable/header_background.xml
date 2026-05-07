@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Vertical gradient from primary to primaryVariant -->
+    <gradient
+        android:angle="90"
+        android:startColor="@color/purple_500"
+        android:endColor="@color/purple_700" />
+
+    <!-- Rounded bottom corners -->
+    <corners
+        android:bottomLeftRadius="24dp"
+        android:bottomRightRadius="24dp" />
+</shape>

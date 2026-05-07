@@ -1,0 +1,38 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Kotlin
+.kotlin/
+
+# Temporary
+.tmp/
+
+# Local config
+local.properties
+
+# IDE
+.idea/
+*.iml
+
+# Logs
+*.log
+hs_err_pid*
+replay_pid*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated
+captures/
+.externalNativeBuild/
+.cxx/
+
+# APKs
+*.apk
+*.aab
+
+# Firebase secrets
+google-services.json
